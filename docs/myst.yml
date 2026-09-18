@@ -1,7 +1,7 @@
 version: 1
 project:
   title: JupyterHealth Hub
-  github: https://github.com/choldgraf/jupyterhealth-hub-docs
+  github: https://github.com/jupyterhealth/jupyterhealth-hub-docs
   plugins:
     - https://github.com/myst-contrib/myst-gui-text/releases/latest/download/index.mjs
     - https://github.com/myst-contrib/myst-iconify/releases/latest/download/index.mjs
