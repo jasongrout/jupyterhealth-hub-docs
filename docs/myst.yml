@@ -1,0 +1,36 @@
+version: 1
+project:
+  title: JupyterHealth Hub
+  github: https://github.com/choldgraf/jupyterhealth-hub-docs
+  plugins:
+    - https://github.com/myst-contrib/myst-gui-text/releases/latest/download/index.mjs
+    - https://github.com/myst-contrib/myst-iconify/releases/latest/download/index.mjs
+    - https://github.com/myst-contrib/myst-listing/releases/latest/download/plugin.mjs
+  references:
+    2i2c: https://docs.2i2c.org/
+    jhe: https://jupyterhealth.github.io/software-documentation/
+  toc:
+    - file: index.md
+    - file: log-in.md
+    - file: run-an-analysis.md
+    - file: ecosystem.md
+site:
+  template: book-theme
+  parts:
+    navbar_end: parts/navbar_end.md
+  options:
+    logo: https://jupyterhealth.github.io/images/JH_logo_2.png
+    logo_text: Hub
+  nav:
+    - title: JupyterHealth
+      children:
+        - title: jupyterhealth.org
+          url: https://jupyterhealth.org
+        - title: Jupyter Health Exchange docs
+          url: https://jupyterhealth.github.io/software-documentation/
+        - title: JHE Client library docs
+          url: https://jupyterhealth-client.readthedocs.io
+        - title: Demos
+          url: https://jupyterhealth.github.io/demos/
+    - title: 2i2c hub guide
+      url: https://docs.2i2c.org/user/
