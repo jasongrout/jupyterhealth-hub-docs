@@ -3,9 +3,9 @@
 This walks through pulling data from the JupyterHealth Exchange into a notebook.
 It assumes you have [logged in and launched a session](log-in.md).
 
-## Connect to the exchange
+## Connect to the Exchange
 
-Your server starts with two environment variables so the client can reach the exchange as you, without logging in again:
+Your server starts with two environment variables so the client can reach the Exchange as you, without logging in again:
 
 ```{list-table}
 :header-rows: 1
@@ -13,12 +13,12 @@ Your server starts with two environment variables so the client can reach the ex
 * - Variable
   - Meaning
 * - `JHE_URL`
-  - URL of the JupyterHealth Exchange the hub is connected to
+  - URL of the JupyterHealth Exchange the Hub is connected to
 * - `JHE_TOKEN`
-  - Your access token for that exchange
+  - Your access token for that Exchange
 ```
 
-The [JupyterHealth client](https://jupyterhealth-client.readthedocs.io) reads these automatically.
+The [client library](https://jupyterhealth-client.readthedocs.io) reads these automatically.
 Open a new notebook with {gui}`File --> New --> Notebook` and run:
 
 ```python
